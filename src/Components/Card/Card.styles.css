@@ -1,0 +1,47 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 50vh;
+}
+
+.card-title{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: 10px 0px 10px 20px;
+}
+
+.input{
+    height: 50px;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+.text-area{
+    height: 100px;
+    font-size: 18px;
+}
+.card-add-comment{
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+    width: 320px;
+}
+
+.card-add-button{
+    width: 150px;
+    background: white;
+    height: 30px;
+}
+.comments{
+    word-wrap: break-word;
+}
+.comment{
+    list-style: none;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.date{
+    float: right;
+}

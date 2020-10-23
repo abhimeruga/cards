@@ -1,0 +1,27 @@
+.card-list {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 100vh;
+}
+.card-list-card {
+    border: 1px solid black;
+    margin: 15px 0px;
+    padding: 5px;
+}
+
+.card-list-title{
+    text-align: left;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+.delete {
+    width: 150px;
+    background: white;
+    height: 50px;
+}
+.add {
+    width: 150px;
+    background: white;
+    height: 50px;
+}
